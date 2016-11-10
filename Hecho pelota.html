@@ -1,0 +1,28 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<script src="Persona.js" charset="UTF-8"></script>
+	<script src="insertador.js" charset="UTF-8"></script>
+</head>
+<body>
+	<div style="align-center; margin-left: 10%;margin-right: 10%;">
+   	<div>
+       		<label style="display: inline;">Cantidad de materias:</label>
+       		<input id="materias" type="number" min="0" max="10" step="1">
+   	</div>
+   	<br>
+   	<div>
+       		<label style="display: inline;">Horas de viaje:</label>
+       		<input id="viaje" type="number" min="0" max="5" step="0.1">
+   	</div>
+   	<br>
+   	<button onclick="insertador.calculáEInsertáResultado()">Consultar</button>
+   	<br>
+   	<br>
+   	<div>
+       		<label style="display: inline;">Porcentaje de hechopelotez:</label>
+       		<p id="resultado" style="display: inline;">Y el porcentaje eeesss...</p>
+   	</div>
+	</div>
+</body>
+</html>
